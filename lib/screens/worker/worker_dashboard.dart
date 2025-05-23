@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:sramsetu/screens/notifications_screen.dart';
-import 'package:sramsetu/screens/profile_screen.dart';
+import 'package:shramsetu/screens/home_screen.dart';
+import 'package:shramsetu/screens/user/profile_screen.dart';
+
 
 class WorkerDashboard extends StatefulWidget {
   const WorkerDashboard({super.key});
@@ -75,7 +76,11 @@ class _WorkerDashboardState extends State<WorkerDashboard> {
             onPressed: () {
               Navigator.push(
                 context,
-                MaterialPageRoute(builder: (context) => const NotificationsScreen()),
+                // TODO: Replace with your actual notifications screen
+                MaterialPageRoute(builder: (context) => Scaffold(
+                  appBar: AppBar(title: const Text('Notifications')),
+                  body: const Center(child: Text('Notifications Screen Placeholder')),
+                )),
               );
             },
           ),

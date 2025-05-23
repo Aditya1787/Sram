@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "915260769106",
+    "project_id": "sramsetu",
+    "storage_bucket": "sramsetu.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:915260769106:android:22ef7184efbc72432f308b",
+        "android_client_info": {
+          "package_name": "com.example.sramsetu"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-Yjn1BAXe4KPzlBIXgHoOjwgaVsbawVs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
